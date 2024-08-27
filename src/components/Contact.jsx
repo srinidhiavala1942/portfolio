@@ -78,14 +78,14 @@ const handleChange=(e) =>{}
         </form>
 
     </motion.div>
-    <div
+    <motion.div
           variants={slideIn('right','tween',0.2,1)}
           className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
     >
       <EarthCanvas></EarthCanvas>
 
 
-    </div>
+    </motion.div>
   
     </div>
   )

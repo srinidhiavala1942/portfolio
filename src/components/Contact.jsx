@@ -29,7 +29,7 @@ const handleChange=(e) =>{
       from_name: form.name,
       to_name:'Noel',
       from_email: form.email,
-      to_email:'noelpaulmoses3@gmail.com',
+      to_email:'njangam1@asu.edu',
       message:form.message,
 
     },

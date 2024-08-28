@@ -32,7 +32,7 @@ const EarthCanvas=()=>{
           <OrbitControls
           autoRotate
 
-          autoRotateSpeed={10} 
+          autoRotateSpeed={2} 
           enableZoom={false}
           maxPolarAngle={Math.PI/2}
           minPolarAngle={Math.PI/2}

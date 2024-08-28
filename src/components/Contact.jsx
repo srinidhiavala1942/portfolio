@@ -5,6 +5,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from './canvas';
 import { slideIn } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+//template_k9ofdxp
+//service_e0zu7cd
+//YzdU5LPYc4egQ3IGH
 const Contact = () => {
   const formRef= useRef();
   const [form, setForm] = useState({
@@ -14,8 +17,38 @@ const Contact = () => {
     message:'',
   });
 const[loading, setLoading]= useState(false);
-const handleChange=(e) =>{}
-  const handleSubmit=(e)=>{}
+const handleChange=(e) =>{
+  const{name, value}=e.target;
+  setForm({...form,[name]:value})
+}
+  const handleSubmit=(e)=>{
+    e.preventDefault();
+    setLoading(true)
+
+    emailjs.send('service_e0zu7cd','template_k9ofdxp',{
+      from_name: form.name,
+      to_name:'Noel',
+      from_email: form.email,
+      to_email:'noelpaulmoses3@gmail.com',
+      message:form.message,
+
+    },
+    'YzdU5LPYc4egQ3IGH'
+  ).then(()=>{
+    setLoading(false);
+    alert('Thanks for your time. Expect me soon in 12 hours.');
+    setForm({
+      name:'',
+      email:'',
+      message:'',
+    })
+  }, (error)=>{
+    setLoading(false)
+    console.log(error);
+    alert('Oops Something went wrong! Please try refreshing.')
+  }
+    )
+  }
   return (
     <div
     className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'
@@ -39,7 +72,7 @@ const handleChange=(e) =>{}
               value={form.name}
               onChange={handleChange}
               placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placehlder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
               ></input>
           </label>
           <label className='flex flex-col'>
@@ -50,7 +83,7 @@ const handleChange=(e) =>{}
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className='bg-tertiary py-4 px-6 placehlder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
               ></input>
           </label>
           <label className='flex flex-col'>
@@ -62,7 +95,7 @@ const handleChange=(e) =>{}
               value={form.message}
               onChange={handleChange}
               placeholder="Loved the 3D models maybe? or just say Hi!"
-              className='bg-tertiary py-4 px-6 placehlder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
+              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium'
               ></textarea>
           </label>
 

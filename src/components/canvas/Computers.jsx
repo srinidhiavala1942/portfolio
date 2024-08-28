@@ -6,7 +6,7 @@ import { fadeIn } from '../../utils/motion';
 import { useState, useEffect } from 'react';
 
 const Computers = ({isMobile}) => {
-  const computer = useGLTF('/planet/scene.gltf');  // Corrected path
+  const computer = useGLTF('/desktop_pc/scene.gltf');  // Corrected path
 
   return (
     <>
@@ -20,7 +20,7 @@ const Computers = ({isMobile}) => {
         castShadow
         shadow-mapSize={1024}
       />
-      <primitive object={computer.scene} scale={isMobile? 0.37 : 3} position={isMobile ? [0.5,0.52,-0.45]:[0.5, 1.5 , 0]} rotation={[0,0,0]} />
+      <primitive object={computer.scene} scale={isMobile? 0.37 : 0.55} position={isMobile ? [0.5,0.52,-0.45]:[0.5, 1.5 , 0]} rotation={[0,0,0]} />
     </>
   );
 };

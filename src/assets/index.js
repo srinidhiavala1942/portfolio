@@ -22,10 +22,11 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import tcs from "./company/tcs.png";
 import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
+import amazon from "./company/amazon.png";
+import roomiehub from './company/roomiehub.png'
+import verzeo from './company/verzeo.png'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -42,6 +43,7 @@ export {
   css,
   docker,
   figma,
+  roomiehub,
   git,
   html,
   javascript,
@@ -53,9 +55,10 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
+  tcs,
   starbucks,
-  tesla,
+  amazon,
+  verzeo,
   carrent,
   jobit,
   tripguide,

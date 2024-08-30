@@ -57,7 +57,7 @@ const handleChange=(e) =>{
       variants={slideIn('left','tween',0.2,1)}
       className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
     >
-      <p className={styles.sectionSubText}>Get in Touch </p>
+      <p className=' text-secondary'>Interested in collaborating on a project or just want to connect or maybe even Hire me? feel free to reach out! </p>
       <h3 className={styles.sectionHeadText}> Contact.</h3>
         <form
           ref={formRef}

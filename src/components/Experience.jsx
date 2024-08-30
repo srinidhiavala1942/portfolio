@@ -45,7 +45,7 @@ const Experience = () => {
     <>
    
       <p className={`${styles.sectionSubText} from-neutral-100 font-semibold` }> what have i done?</p>
-      <h2 className= {styles.sectionHeadText}>good shit</h2>
+      <h2 className= {styles.sectionHeadText}>know me moORE..</h2>
  
     <div className="mt-20 flex flex-col">
       <VerticalTimeline>

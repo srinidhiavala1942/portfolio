@@ -10,11 +10,11 @@ const Loader = () => {
               fontSize: 20,
               color:"white",
               fontWeight:800,
-              marginTop:40
+              marginTop:-200
 
             }}  
           
-          >{progress.toFixed(2)}%</p>
+          >3D:Model {progress.toFixed(2)} % Loaded</p>
 
 
           

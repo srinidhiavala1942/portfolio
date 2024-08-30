@@ -66,8 +66,8 @@ const Works = () => {
     <motion.div
       variants={textVariant()}
     >
-      <p className={`${styles.sectionSubText} from-neutral-100 font-semibold`}>wtf have i done?</p>
-      <h2 className= {styles.sectionHeadText}>cool stuff i did</h2>
+      <p className={`${styles.sectionSubText} from-neutral-100 font-semibold`}>A Showcase of My Technical Expertise</p>
+      <h2 className= {styles.sectionHeadText}>My Digital Creations</h2>
  
     </motion.div>
     <div className="w-full flex">
@@ -75,10 +75,7 @@ const Works = () => {
         variants={fadeIn("","",0.1,1)}
         className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
 
-      > These are my projects. Content Project.
-
-
-
+      > Dive into a curated selection of projects that demonstrate my journey as a Full Stack Developer. From AI-powered models to dynamic web applications, each project reflects my commitment to innovation, problem-solving, and creating impactful digital solutions. 
       </motion.p>
 
 

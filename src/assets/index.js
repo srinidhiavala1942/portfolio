@@ -27,9 +27,9 @@ import starbucks from "./company/starbucks.png";
 import amazon from "./company/amazon.png";
 import roomiehub from './company/roomiehub.png'
 import verzeo from './company/verzeo.png'
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import covid from "./covid.jpg";
+import health from "./health.jpg";
+import reactwebsite from "./reactwebsite.jpg";
 
 export {
   logo,
@@ -59,7 +59,7 @@ export {
   starbucks,
   amazon,
   verzeo,
-  carrent,
-  jobit,
-  tripguide,
+  covid,
+  health,
+  reactwebsite,
 };

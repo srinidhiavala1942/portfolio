@@ -21,9 +21,9 @@ import {
     amazon,
     verzeo,
     tcs,
-    carrent,
-    jobit,
-    tripguide,
+    covid,
+    health,
+    reactwebsite,
     threejs,
   } from "../assets";
   
@@ -44,19 +44,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Ex-SWE at Amazon, TCS",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Specialization in Full Stack",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Mastery in Computer Science!",
       icon: backend,
     },
     {
-      title: "Fitness Geek",
+      title: "Now - Full Stack Developer (StartUp)",
       icon: creator,
     },
   ];
@@ -117,35 +117,7 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Software Engineer (Full Stack)",
-      company_name: "RoomieHub, LLC | Phoenix, United States",
-      icon: roomiehub,
-      iconBg: "#383E56",
-      date: "June 2024 - Present",
-      points: [
-      "Led development of 2 primary modules: User Profile Navigation and Progress Tracking utilizing React Native, AWS, and Redux.",
-      "Deployed User Profile module on AWS EC2 ensuring 99.9% uptime and efficient resource utilization for the backend.",
-      "Created 4 intuitive navigation components for User Profile dashboard employing React Navigation.",
-      "Developed home screen functionality, supporting image uploads up to 10 MB and enhancing state management using Redux.",
-
-      ],
-    },    {
-      title: "Software Engineer (Full Stack)",
-      company_name: "RoomieHub, LLC | Phoenix, United States",
-      icon: roomiehub,
-      iconBg: "#383E56",
-      date: "June 2024 - Present",
-      points: [
-      "Led development of 2 primary modules: User Profile Navigation and Progress Tracking utilizing React Native, AWS, and Redux.",
-      "Deployed User Profile module on AWS EC2 ensuring 99.9% uptime and efficient resource utilization for the backend.",
-      "Created 4 intuitive navigation components for User Profile dashboard employing React Navigation.",
-      "Developed home screen functionality, supporting image uploads up to 10 MB and enhancing state management using Redux.",
-
-      ],
-    },
-   
-    {
+   {
       title: "Software Engineer (Full Stack)",
       company_name: "RoomieHub, LLC | Phoenix, United States",
       icon: roomiehub,
@@ -202,9 +174,9 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
+        "Won 1st prize in a state-wide Software Hackathon!",
+      name: "Convergence",
+      designation: "Hyderabad, India",
       company: "Acme Co",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
@@ -228,66 +200,70 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Covid Detection Using Machine Learning",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A Deep Learning model developed using CNN (VGG-16) for detecting Covid-19 from chest X-rays, achieving top recognition among 48 undergrad projects. Trained the model over 160 epochs and achieved 86% accuracy.",
       tags: [
         {
-          name: "react",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "pyTorch",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "ConvolutionNeuralNetworks",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: covid,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Context Monitoring Application",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created 'MindFul Life', an Android app to track vital signs like heart and respiratory rates by leveraging flash-enabled video and accelerometer sensors for accurate vital sign measurement, storing data securely on the user's smartphone.",
       tags: [
         {
-          name: "react",
+          name: "AndroidStudio",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Java",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: health,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Personal Portfolio Website",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Designed and developed a personal portfolio website to highlight my skills, experience, and projects. The site features dynamic animations, transitions, responsive design, and my favourite 3D models presenting a seamless user experience.",
       tags: [
         {
-          name: "nextjs",
+          name: "reactJS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "framer",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "threeJS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "framer",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: reactwebsite,
       source_code_link: "https://github.com/",
     },
   ];

@@ -1,8 +1,7 @@
-# React + Vite
+This portfolio app is a reflection of my journey as a Full Stack Developer, meticulously crafted to showcase my skills, projects, and professional milestones. I designed and built this application using modern web technologies to ensure a seamless and interactive user experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend: The app's frontend is built using ReactJS with Tailwind CSS for styling, ensuring a responsive and visually appealing design. The dynamic components and smooth user interactions are powered by JavaScript and Framer Motion for animations.
 
-Currently, two official plugins are available:
+Hosting & Deployment: The app is deployed on Hostinger, utilizing its reliable services to ensure the app is always available and performs well. The deployment process involved configuring the server, optimizing the build, and setting up continuous deployment pipelines.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3D resources are used from sketchfab.com

@@ -175,12 +175,13 @@ import {
   const testimonials = [
     { trophyHeading :"Awards",
       testimonial: "Collaborating with Noel has been both fun and learning. Besides being a great team player, he is quick at adapting to new technologies.",
-      name: "Vamsi Teja",
+      name: "Vamsi Manyam",
       
       designation: "SDE 2",
       company: "Amazon",
       image: vamsi,
-  //    linkedin: 'https://www.linkedin.com/in/vamsi-manyam-816792134/',
+
+      linkedin_link: 'https://www.linkedin.com/in/vamsi-manyam-816792134/',
     },
     {
       trophyHeading :"Skills",
@@ -243,7 +244,7 @@ import {
         },
       ],
       image: health,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jangamnoelpaulmoses/Context-Aware-Application",
     },
     {
       name: "Personal Portfolio Website",
@@ -268,7 +269,7 @@ import {
         },
       ],
       image: reactwebsite,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://noelpaulmoses.com/",
     },
   ];
   

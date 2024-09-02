@@ -30,10 +30,12 @@ import verzeo from './company/verzeo.png'
 import covid from "./covid.jpg";
 import health from "./health.jpg";
 import reactwebsite from "./reactwebsite.jpg";
+import vamsi from "./company/vamsi.jpg"
 
 export {
   logo,
   backend,
+  vamsi,
   creator,
   mobile,
   web,

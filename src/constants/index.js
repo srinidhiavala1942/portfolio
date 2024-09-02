@@ -10,6 +10,7 @@ import {
     css,
     reactjs,
     redux,
+    vamsi,
     tailwind,
     nodejs,
     mongodb,
@@ -124,10 +125,10 @@ import {
       iconBg: "#383E56",
       date: "June 2024 - Present",
       points: [
-      "Led development of 2 primary modules: User Profile Navigation and Progress Tracking utilizing React Native, AWS, and Redux.",
-      "Deployed User Profile module on AWS EC2 ensuring 99.9% uptime and efficient resource utilization for the backend.",
+      "Involved in development of 2 primary modules: User Profile Navigation and Progress Tracking utilizing React Native, AWS, and Redux.",
+      "Deployed User Profile module and its components enhancing state management using Redux.",
       "Created 4 intuitive navigation components for User Profile dashboard employing React Navigation.",
-      "Developed home screen functionality, supporting image uploads up to 10 MB and enhancing state management using Redux.",
+      "Developed home screen and birthday functionalities, supporting image uploads up to 10 MB.",
 
       ],
     },
@@ -172,31 +173,34 @@ import {
   ];
   
   const testimonials = [
-    {
-      testimonial:
-        "Won 1st prize in a state-wide Software Hackathon!",
-      name: "Convergence",
-      designation: "Hyderabad, India",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    { trophyHeading :"Awards",
+      testimonial: "Collaborating with Noel has been both fun and learning. Besides being a great team player, he is quick at adapting to new technologies.",
+      name: "Vamsi Teja",
+      
+      designation: "SDE 2",
+      company: "Amazon",
+      image: vamsi,
+  //    linkedin: 'https://www.linkedin.com/in/vamsi-manyam-816792134/',
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      trophyHeading :"Skills",
+      testimonial:"",
+  //      "Java, C/C++, Python, Swift, Objective-C, JavaScript, HTML, CSS, AWS, ReactJS, NodeJS, ExpressJS, React Native.",
+      name: "",//"Chris Brown",
+      designation: "",//"COO",
+      company:"",// "DEF Corp",
+      image:"",// "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      trophyHeading :"Certifications",
+      testimonial:"",// "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name:"",// "Lisa Wang",
+      designation: "",//"CTO",
+      company: "",//"456 Enterprises",
+      image: "",//"https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
+
   
   const projects = [
     {

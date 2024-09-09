@@ -11,6 +11,8 @@ import {
     reactjs,
     redux,
     vamsi,
+    enrique,
+    shefali,
     tailwind,
     nodejs,
     mongodb,
@@ -173,32 +175,35 @@ import {
   ];
   
   const testimonials = [
+    {
+      trophyHeading :"Skills",
+      testimonial:"Noel's willingness to take on tasks with complex code issues and successfully deliver them makes him a standout developer.",
+      name: "Enrique Melendez",
+      designation: "Founder",
+      company:"RoomieHub, LLC",
+      image: enrique,
+      
+      linkedin_link: 'https://www.linkedin.com/in/enrique-caceres-melendez-331489151/',
+    },
     { trophyHeading :"Awards",
       testimonial: "Collaborating with Noel has been both fun and learning. Besides being a great team player, he is quick at adapting to new technologies.",
       name: "Vamsi Manyam",
       
-      designation: "SDE 2",
+      designation: "Software Development Engineer-2",
       company: "Amazon",
       image: vamsi,
 
       linkedin_link: 'https://www.linkedin.com/in/vamsi-manyam-816792134/',
     },
-    {
-      trophyHeading :"Skills",
-      testimonial:"",
-  //      "Java, C/C++, Python, Swift, Objective-C, JavaScript, HTML, CSS, AWS, ReactJS, NodeJS, ExpressJS, React Native.",
-      name: "",//"Chris Brown",
-      designation: "",//"COO",
-      company:"",// "DEF Corp",
-      image:"",// "https://randomuser.me/api/portraits/men/5.jpg",
-    },
+
     {
       trophyHeading :"Certifications",
-      testimonial:"",// "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name:"",// "Lisa Wang",
-      designation: "",//"CTO",
-      company: "",//"456 Enterprises",
-      image: "",//"https://randomuser.me/api/portraits/women/6.jpg",
+      testimonial: "Noel was our team's point of contact anything related to the front end and its integerations for our ML and Web based project.",
+      name:"Shefali Saini",// "Lisa Wang",
+      designation: "System Development Engineer",//"CTO",
+      company: "Amazon",//"456 Enterprises",
+      image: shefali,//"https://randomuser.me/api/portraits/women/6.jpg",
+      linkedin_link: 'https://www.linkedin.com/in/shefali-saini-5a056617b/',
     },
   ];
 

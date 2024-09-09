@@ -31,11 +31,14 @@ import covid from "./covid.jpg";
 import health from "./health.jpg";
 import reactwebsite from "./reactwebsite.jpg";
 import vamsi from "./company/vamsi.jpg"
-
+import enrique from "./company/enrique.jpg"
+import shefali from "./company/shefali.jpg"
 export {
   logo,
   backend,
   vamsi,
+  enrique,
+  shefali,
   creator,
   mobile,
   web,

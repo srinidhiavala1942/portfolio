@@ -18,7 +18,7 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[90%] h-[90%] object-contain"
         />
       </div>
     }
@@ -44,8 +44,8 @@ const Experience = () => {
   return (
     <>
    
-      <p className={`${styles.sectionSubText} from-neutral-100 font-semibold` }> what have i done?</p>
-      <h2 className= {styles.sectionHeadText}>know me moORE..</h2>
+      <p className={`${styles.sectionSubText} from-neutral-100 font-semibold` }> PROFESSIONAL EXPERIENCE</p>
+      <h2 className= {styles.sectionHeadText}>Know me more</h2>
  
     <div className="mt-20 flex flex-col">
       <VerticalTimeline>

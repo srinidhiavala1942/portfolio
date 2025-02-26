@@ -26,6 +26,7 @@ import tcs from "./company/tcs.png";
 import starbucks from "./company/starbucks.png";
 import amazon from "./company/amazon.png";
 import roomiehub from './company/roomiehub.png'
+import naviget from './company/naviget.png'
 import verzeo from './company/verzeo.png'
 import covid from "./covid.jpg";
 import health from "./health.jpg";
@@ -49,6 +50,7 @@ export {
   docker,
   figma,
   roomiehub,
+  naviget,
   git,
   html,
   javascript,

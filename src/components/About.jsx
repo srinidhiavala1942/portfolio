@@ -40,15 +40,14 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>--The Face Behind the Code--</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        {/* <p className={styles.sectionSubText}>--The Face Behind the Code--</p> */}
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p 
         variants={fadeIn("", "", 0.1, 1)} 
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Noel Paul Moses Jangam--- 2.5+ SWE Expeience. MS-CS Student @ASU and a Full Stack Developer who turns ideas into impactful digital experiences. From sleek frontends to powerful backends, I build web solutions that scale.
-      </motion.p>
+     Hi, I'm Noel Paul Moses Jangam, a Full Stack Developer with over 3 years of experience and an MS-CS student at ASU. I specialize in transforming ideas into impactful digital experiences—crafting sleek frontends, building robust backends, and developing scalable web solutions.</motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         { services.map((service,index)=>(

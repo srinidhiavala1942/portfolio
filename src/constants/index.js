@@ -4,6 +4,7 @@ import {
     creator,
     web,
     roomiehub,
+    naviget,
     javascript,
     typescript,
     html,
@@ -51,15 +52,15 @@ import {
       icon: web,
     },
     {
-      title: "Specialization in Full Stack",
+      title: "Full Stack Specialization",
       icon: mobile,
     },
     {
-      title: "Mastery in Computer Science!",
+      title: "Master's in Computer Science, ASU",
       icon: backend,
     },
     {
-      title: "Now - Full Stack Developer (StartUp)",
+      title: "Founding Engineer, Naviget",
       icon: creator,
     },
   ];
@@ -120,12 +121,25 @@ import {
   ];
   
   const experiences = [
-   {
+    {
+      title: "Founding Full Stack Developer",
+      company_name: "Naviget | San Jose, United States",
+      icon: naviget,
+      iconBg: "#000000",
+      date: "February 2025 - Present",
+      points: [
+        "Building Naviget’s medical imaging platform using AWS, Next.js, and Supabase for scalable, secure processing.",
+        "Developed an AI-powered video slider feature that enables real-time comparison of MRI scans, enhancing patient understanding and diagnostic accuracy with interactive before-and-after overlays.",
+        "Developing a cloud-based medical DICOM files upload system using AWS S3 and Lambda to handle 500+ image uploads daily.",
+      ],
+    },
+    
+    {
       title: "Software Engineer (Full Stack)",
       company_name: "RoomieHub, LLC | Phoenix, United States",
       icon: roomiehub,
       iconBg: "#383E56",
-      date: "June 2024 - Present",
+      date: "June 2024 - November 2024",
       points: [
       "Involved in development of 2 primary modules: User Profile Navigation and Progress Tracking utilizing React Native, AWS, and Redux.",
       "Deployed User Profile module and its components enhancing state management using Redux.",

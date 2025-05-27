@@ -48,7 +48,7 @@ import {
   
   const services = [
     {
-      title: "Ex-SWE at Amazon, TCS",
+      title: "Ex-SWE at TCS, Amazon",
       icon: web,
     },
     {
@@ -60,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Founding Engineer, Naviget",
+      title: "Present - Software Engineer @ Naviget",
       icon: creator,
     },
   ];
@@ -224,6 +224,53 @@ import {
   
   const projects = [
     {
+      name: "Apply Beast Chrome Extension",
+      description:
+        "Developed a smart Chrome extension that automates job applications on LinkedIn. It detects Easy Apply jobs, auto-fills forms, manages application flow, and enables users to apply to 50+ jobs in minutes with minimal input.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ChromeExtension",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "/extension.png", // Replace with the correct image import
+      source_code_link: "https://applybeast.com/",
+      useExternalLinkIcon: true,
+      
+    },
+    {
+      name: "Apply Beast Personalized Dashboard",
+      description:
+        "Built a full-stack dashboard for ApplyBeast to track usage, job stats, and form preferences. Integrated subscription handling, secure auth, user feedback, and resume analysis using PostgreSQL, Supabase, and Vercel.",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "dashboard.png", // Replace with the correct image import
+     source_code_link: "https://app.applybeast.com/dashboard", // or repo if public
+     useExternalLinkIcon: true,
+    },
+    
+    {
+      
       name: "Covid Detection Using Machine Learning",
       description:
         "A Deep Learning model developed using CNN (VGG-16) for detecting Covid-19 from chest X-rays, achieving top recognition among 48 undergrad projects. Trained the model over 160 epochs and achieved 86% accuracy.",

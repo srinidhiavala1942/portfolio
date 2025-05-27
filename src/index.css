@@ -13,6 +13,16 @@
   color-scheme: dark;
 }
 
+/* global.css or tailwind.css */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
@@ -41,6 +51,14 @@
     #804dee 0%,
     rgba(60, 51, 80, 0) 100%
   );
+}
+/* Add this to your globals.css or tailwind.css */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .green-pink-gradient {

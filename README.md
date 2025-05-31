@@ -4,4 +4,5 @@ Frontend: The app's frontend is built using ReactJS with Tailwind CSS for stylin
 
 Hosting & Deployment: The app is deployed on Hostinger, utilizing its reliable services to ensure the app is always available and performs well. The deployment process involved configuring the server, optimizing the build, and setting up continuous deployment pipelines.
 
-3D resources are used from sketchfab.com
+3D resources are used from 
+sketchfab.com

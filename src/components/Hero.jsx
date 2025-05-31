@@ -129,7 +129,7 @@ const Hero = () => {
   return (
     <>
    
-    <section className="relative w-full min-h-screen mx-auto pb-20">
+    <section className="relative w-full mx-auto pb-10">
       {/* Accent Line */}
       <div className="w-1 h-20 via-violet-900 violet-gradient" />
 
@@ -201,7 +201,7 @@ const Hero = () => {
     </AnimatePresence>
 
     {/* Arrows for mobile (below card) */}
-    <div className="flex md:hidden justify-center gap-6 mt-4">
+    <div className="flex md:hidden justify-center gap-6 mt-6">
       <button
         onClick={handlePrev}
         className="bg-[#2e2e46] text-white px-5 py-3 rounded-full hover:bg-[#3d3d5c] transition"
@@ -221,7 +221,7 @@ const Hero = () => {
           </div>
 
       {/* Scroll Prompt */}
-      <div className="absolute xs:bottom-8 bottom-20 w-full flex justify-center items-center hidden ">
+      {/* <div className="absolute xs:bottom-8 bottom-20 w-full flex justify-center items-center hidden ">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div
@@ -231,7 +231,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
     </>
   );

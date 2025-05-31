@@ -1,8 +1,54 @@
-This portfolio app is a reflection of my journey as a Full Stack Developer, meticulously crafted to showcase my skills, projects, and professional milestones. I designed and built this application using modern web technologies to ensure a seamless and interactive user experience
+# Noel Paul Moses – Personal Portfolio 🌍
 
-Frontend: The app's frontend is built using ReactJS with Tailwind CSS for styling, ensuring a responsive and visually appealing design. The dynamic components and smooth user interactions are powered by JavaScript and Framer Motion for animations.
+A modern, fully responsive personal portfolio website built to showcase my journey as a Full Stack Software Engineer. This site highlights key professional experiences, featured projects, and contact options — all presented with clean design and smooth animations.
 
-Hosting & Deployment: The app is deployed on Hostinger, utilizing its reliable services to ensure the app is always available and performs well. The deployment process involved configuring the server, optimizing the build, and setting up continuous deployment pipelines.
+---
 
-3D resources are used from 
-sketchfab.com
+## 🔧 Tech Stack
+
+- **Frontend Framework:** React.js (with Vite)
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **3D Graphics:** Three.js (for interactive Earth model)
+- **Routing:** React Router
+- **UI Enhancements:** React Icons, React Tilt
+- **Cloud & CI/CD:**
+  - AWS S3 (Static site hosting)
+  - AWS CodePipeline + CodeBuild (CI/CD automation)
+  - Vercel (Production deployment & custom domain hosting)
+
+---
+
+## 🌍 Live Links
+
+- 🚀 [Live Site](https://noelpaulmoses.com)
+- 🌐 [AWS Static Backup](http://noel-portfolio-bucket-cicd.s3-website-us-east-1.amazonaws.com/)
+
+---
+
+## 🛠️ AWS Deployment (CI/CD)
+
+During development and testing, the project was deployed using AWS infrastructure:
+
+1. **S3 Bucket**: For static website hosting (`index.html`, assets, etc.).
+2. **CloudFront (optional)**: Can be added for CDN distribution.
+3. **CodePipeline**: Triggered on GitHub push events to automate deployment.
+4. **CodeBuild**: Runs `npm install && npm run build` to build the React project before pushing the output to S3.
+
+> Production version is hosted on **Vercel** for seamless Git-based deployment and SSL support.
+
+---
+
+## 🌟 Key Features
+
+- ⚡ Responsive and mobile-friendly design
+- 🎯 Project carousel with auto-rotation and navigation
+- 🌐 Animated 3D Earth model with **Three.js**
+- 📄 Resume download link
+- 🌈 Smooth scroll, transitions, and page section highlights
+- 📬 Integrated contact section and social media links
+
+---
+
+## 📁 Project Structure (Simplified)
+

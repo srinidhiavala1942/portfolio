@@ -86,14 +86,14 @@ const projects = [
         rel="noopener noreferrer"
         className="hover:underline text-[#8ab4f8] flex items-center gap-2"
       >
-        TCS | Amazon – CodeWhisperer
+        TCS | Amazon 
         <FiExternalLink className="text-white text-2xl" />
       </a>
     ),
     description: (
       <>
         <span className="md:hidden">
-          Worked on developing Amazon’s AI-based coding assistant – CodeWhisperer.
+          Worked on developing Amazon’s AI-based coding assistant: CodeWhisperer.
         </span>
         <span className="hidden md:inline">
           Worked as a Software Engineer at India's largest IT services company, TCS, to develop and maintain Amazon's AI powered coding assistant – CodeWhisperer.
@@ -121,19 +121,21 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev === projects.length - 1 ? 0 : prev + 1));
-    }, 3700); // 3 seconds
+    }, 10000); // 3 seconds
   
     return () => clearInterval(interval); // cleanup on unmount
   }, []);
   
   return (
-    <section className="relative w-full h-screen mx-auto overflow-hidden">
+    <>
+   
+    <section className="relative w-full min-h-screen mx-auto pb-20">
       {/* Accent Line */}
-      <div className="w-1 sm:h-80 h-40 via-violet-900 violet-gradient" />
+      <div className="w-1 h-20 via-violet-900 violet-gradient" />
 
       {/* Content */}
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[80px] max-w-7xl mx-auto flex flex-col items-center`}
+        className={`${styles.paddingX} relative mt-[10px] max-w-7xl mx-auto flex flex-col items-center`}
       >
         {/* Header */}
         <div className="flex flex-row items-start gap-8 w-full">
@@ -231,6 +233,7 @@ const Hero = () => {
         </a>
       </div>
     </section>
+    </>
   );
 };
 

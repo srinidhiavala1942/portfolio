@@ -1,4 +1,4 @@
-# Noel Paul Moses – Personal Portfolio 🌍
+# Srinidhi – Personal Portfolio 🌍
 
 A modern, fully responsive personal portfolio website built to showcase my journey as a Full Stack Software Engineer. This site highlights key professional experiences, featured projects, and contact options — all presented with clean design and smooth animations.
 
